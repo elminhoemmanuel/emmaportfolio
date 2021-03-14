@@ -1,0 +1,100 @@
+/* General styles */
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    font-size: 1em;
+    overflow-x: hidden;
+}
+
+.white{
+    color: white;
+}
+
+.sections{
+    padding:4% 9%;
+}
+
+.center{
+    text-align: center;
+}
+
+/* navigation section */
+
+
+.navbar{
+    display: flex;
+    padding:1% 9%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-items-div{
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.nav-items-div a{
+    text-decoration:none;
+    
+}
+.nav-items-div div{
+    padding:0 8%;
+}
+
+/* banner section */
+.banner{
+    display: flex;
+}
+
+.banner div{
+    width: 50%;
+}
+
+.picture-div img{
+    width: 100%;
+}
+
+/* Skills section */
+
+.skills-header{
+    margin-bottom: 4%;
+    
+}
+
+.skills-holder{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Contact section */
+.icons-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.icons-holder div{
+    padding: 0 2%;
+}
+
+.icons-holder a{
+    text-decoration: none;
+    display: block;
+    
+}
+
+/* media queries */
+@media only screen and (max-width:767px){
+    .nav-items-div{
+        flex-wrap: wrap;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner div{
+        width: 100%;
+    }
+}
